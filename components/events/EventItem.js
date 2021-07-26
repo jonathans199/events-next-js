@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import Button from '../ui/button'
 
@@ -37,7 +36,6 @@ export default function EventItem({ title, image, date, location, id }) {
                 <ArrowRightIcon />
               </span>
             </Button>
-            {/* <Link href={exploreLink}>Explore Event</Link> */}
           </div>
         </div>
       </div>
